@@ -16,7 +16,7 @@ export default function Hero(){
         </div>
       </motion.div>
 
-      <motion.div initial={{opacity:0, scale:0.98}} animate={{opacity:1, scale:1}} transition={{duration:0.6}} className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary shadow-lg">
+      <motion.div initial={{opacity:0, scale:0.98}} animate={{opacity:1, scale:1}} transition={{duration:0.6}} className="w-72 h-72 rounded-full overflow-hidden border-4 border-primary shadow-lg">
         <img src="/public/profile.jpg" alt="Profile" className="w-full h-full object-cover"/>
       </motion.div>
     </section>
